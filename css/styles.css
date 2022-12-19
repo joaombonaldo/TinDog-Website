@@ -1,0 +1,185 @@
+body {
+    font-family: "Montserrat Regular";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Montserrat Extrabold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-selection {
+    background-color: white;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 8rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat Light";
+}
+
+.navbar-padding {
+    padding-left: 50%;
+}
+
+/* Title Section */
+
+#title .container-fluid {       /* --> target a id and a class to just change that class in the specific id section */
+    padding: 3% 15% 7%;
+    position: relative;
+    text-align: left;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 20%;
+    top: 260px;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 57%;
+}
+
+/* Feature Sections */
+
+#features {
+    background-color: white;
+    position: relative;
+     z-index: 1; /*z index -> changes who comes in the top of other. 0 = normal / 1,2,3,4.. = top / -1,-2,-3... = down / for this function to work it needs to be set a positiion: relative/absolute...*/
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Media Querys */
+/* @media <type> <feature> */
+/* This is used to make sites responsives */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+/* Call to Actions Section */
+
+/* Footer Section */
+
+.footer-icons {
+    margin: 20px 10px;
+}
